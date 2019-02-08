@@ -4,8 +4,6 @@ services:
     image: plumber_server
     networks:
      - traefik-net
-    volumes:
-     - src:/opt/R
     deploy:
       replicas: 10
       labels:
