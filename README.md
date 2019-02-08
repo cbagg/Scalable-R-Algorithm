@@ -7,7 +7,7 @@ Most people who works with R know that there are two key problems people have pr
 
 Below I have a solution for both problems.
 
-# Plumber for Standard REST
+# Plumber, Docker Swarm, and Traefik to Scale an R Algorithm
 
 To make an R application fit into a technology stack, we stand it up as a RESTful service, which means we can do standard GET, POST, etc logic with it. Developers are very familiar with this logic and will be able to consume it easily as second nature.
 
